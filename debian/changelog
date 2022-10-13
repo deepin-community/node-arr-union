@@ -1,0 +1,20 @@
+node-arr-union (3.1.0-2) unstable; urgency=medium
+
+  * Team upload
+  * Bump debhelper compatibility level to 12
+  * Declare compliance with policy 4.5.0
+  * Add "Rules-Requires-Root: no"
+  * Change section to javascript
+  * Add debian/gbp.conf
+  * Add upstream/metadata
+  * Use pkg-js-tools
+  * Fix copyright
+  * Update VCS fields to salsa
+
+ -- Xavier Guimard <yadd@debian.org>  Wed, 19 Feb 2020 06:32:46 +0100
+
+node-arr-union (3.1.0-1) unstable; urgency=low
+
+  * Initial release (Closes: #841084)
+
+ -- Sruthi Chandran <srud@disroot.org>  Mon, 17 Oct 2016 20:45:40 +0530

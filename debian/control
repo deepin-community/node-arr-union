@@ -1,0 +1,23 @@
+Source: node-arr-union
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Sruthi Chandran <srud@disroot.org>
+Section: javascript
+Testsuite: autopkgtest-pkg-nodejs
+Priority: optional
+Build-Depends: debhelper-compat (= 12)
+ , pkg-js-tools (>= 0.9.20~)
+Standards-Version: 4.5.0
+Vcs-Browser: https://salsa.debian.org/js-team/node-arr-union
+Vcs-Git: https://salsa.debian.org/js-team/node-arr-union.git
+Homepage: https://github.com/jonschlinkert/arr-union
+Rules-Requires-Root: no
+
+Package: node-arr-union
+Architecture: all
+Depends: ${misc:Depends}
+ , nodejs
+Description: Combines list of arrays, returning single array with unique values
+ Combines a list of arrays, returning a single array with unique values, using
+ strict equality for comparisons.
+ .
+ Node.js is an event-based server-side JavaScript engine.
